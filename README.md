@@ -12,9 +12,9 @@
 #DATABASE_URL="mysql://usuario:password@localhost:port/nameDB?schema=public"
 ```
 
-Sustituir los campos de usuario, password, port y nameDB por el usuario que accede a las tablas, el password de acceso del usuario, el puerto de accesos y el nombre de la base de datos correspondiente.
+Sustituir los campos de usuario, password, port y nameDB por el usuario que accede a la base de datos, el password de acceso del usuario, el puerto de acceso y el nombre de la base de datos correspondiente.
 
-Con esto ya se tendrá la conexión entre la base de datos y nuestra api.
+Con esto ya se tendrá la conexión entre la base de datos y nuestra API.
 
 ## Esquema de las tablas de base de datos
 
@@ -36,7 +36,7 @@ Para correr el proyecto y poder ocupar las api's ejecutaremos el siguiente coman
 npm run dev
 ```
 
-Esto nos permite correr el proyecto localhost:3000
+Esto nos permite correr el proyecto http://localhost:3005
 
 Para ver las tablas en el navegador mediante un ambiente gráfico podemos correr el siguiente comando:
 
